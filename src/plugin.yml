@@ -1,7 +1,7 @@
 name: ModoUtils
 version: 1
 author: coco33920
-main: fr.colin.modoM.ModoMessage
+main: fr.colin.modom.ModoMessage
 commands:
   annonce:
   help:
