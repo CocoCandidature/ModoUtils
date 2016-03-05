@@ -39,8 +39,6 @@ public class Fonctions {
 
 
         ModoMessage.getInstance().saveConfig();
-
-
     }
 
     public static void createConfig(String fileName) throws IOException {
@@ -49,12 +47,7 @@ public class Fonctions {
         if (!f.exists()) {
             f.mkdir();
             f.createNewFile();
-
-
-        } else {
         }
-
-
     }
 
 
@@ -70,6 +63,4 @@ public class Fonctions {
 
         return fc;
     }
-
-
 }

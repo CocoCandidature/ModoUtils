@@ -58,13 +58,8 @@ public class Utils {
 			dev.setPrefix("§2§fRetraité > ");
 			admin.setPrefix("§1§4Admin > ");
 			joueur.setPrefix("§7");
-
 		}
-
 	}
-
-
-
 	
 	public static String getPrefixAnnonce() {
 		String str = PrefixAnnonce;
@@ -72,10 +67,10 @@ public class Utils {
 			str = "§4§l[§6§lAnnonce§4§l] §2§o ";
 		}else{
 			str = PrefixAnnonce;
-		
 		}
 		return str;
 	}
+
 	public static String getPrefixModo() {
 		String str = PrefixModo;
 		if(str == null){
@@ -85,6 +80,7 @@ public class Utils {
 		}
 		return str;
 	}
+
 	public static String getKickMessageKicker() {
 		String str = KickMessageKicker;
 		if(str == null){
@@ -94,6 +90,7 @@ public class Utils {
 		}
 		return str;
 	}
+
 	public static String getKickMessageKicking() {
 		String str = KickMessageKicking;
 		 
@@ -101,211 +98,207 @@ public class Utils {
 			str = "§a %kicking% a été kick  §6pour %raison%";
 		}else{
 			str = KickMessageKicking;
-		}
-		
-		
-				
+		}		
 		return str;
 	}
+
 	public static String getMessageModo() {
 		String str =  MessageModo;
 		if(str == null){
 			str = "%player% : §b%message%";
 			
-		}else
-		{
+		}else{
 			str = MessageModo;
 		}
 		return str;
 	}
+
 	public static String getMessageAnnonce() {
 		String str =  MessageAnnonce;
 		if(str == null){
 			str = "%player% : §b%message%";
 			
-		}else
-		{
+		}else{
 			str = MessageAnnonce;
 		}
 		return str;
 		
 	}
+
 	public static String getMessageMuteAll() {
 		String str =  MessageMuteAll;
 		if(str == null){
 			str = "§4Tous le monde a été muté";
 			
-		}else
-		{
+		}else{
 			str = MessageMuteAll;
 		}
 		return str;
 	}
+
 	public static String getMessageDeMuteAll() {
 		String str =  MessageDeMuteAll;
 		if(str == null){
 			str = "§4Tous le monde a été démuté";
 			
-		}else
-		{
+		}else{
 			str = MessageDeMuteAll;
 		}
 		return str;
 	}
+
 	public static String getMessageAsk() {
 		String str =  MessageAsk;
 		if(str == null){
 			str = "§a%player% §ba posé une question : §a %question%";
 			
-		}else
-		{
+		}else{
 			str = MessageAsk;
 		}
 		return str;
 	}
+
 	public static String getMessageHelpAsk() {
 		String str =  MessageHelpAsk;
 		if(str == null){
 			str = "§cFait /help <message> pour obtenir de l'aide";
 			
-		}else
-		{
+		}else{
 			str = MessageHelpAsk;
 		}
 		return str;
 	}
+
 	public static String getMessageMsgSender() {
 		String str =  MessageMsgSender;
 		if(str == null){
 			str = "§3%sender% > %target% : %message% ";
 			
-		}else
-		{
+		}else{
 			str = MessageMsgSender;
 		}
 		return str;
 	}
+
 	public static String getMessageMsgRecever() {
 		String str =  MessageMsgRecever;
 		if(str == null){
 			str = "§3%sender% > %target% : %message% ";
 			
-		}else
-		{
+		}else{
 			str = MessageMsgRecever;
 		}
 		return str;
 	}
+
 	public static String getMessageNoPerm() {
 		String str =  MessageNoPerm;
 		if(str == null){
 			str = "§4Tu n'as pas la permission d'executer cette commande";
 			
-		}else
-		{
+		}else{
 			str = MessageNoPerm;
 		}
 		return str;
 	}
+
 	public static String getMessageNotArgs() {
 		String str =  MessageNotArgs;
 		if(str == null){
 			str = "§4Pour executer cette commande il faut un ou plusieur argument ";
 			
-		}else
-		{
+		}else{
 			str = MessageNotArgs;
 		}
 		return str;
 	}
+
 	public static String getMessageSp1() {
 		String str = MessageSp1;
 		if(str == null){
 			str = "§3 Vous êtes maintenant en socialspy";
 			
-		}else
-		{
+		}else{
 			str = MessageSp1;
 		}
 		return str;
 	}
+
 	public static String getMessageSp2() {
 		String str =  MessageSp2;
 		if(str == null){
 			str = "§3 Vous n'êtes plus en socialspy";
 			
-		}else
-		{
+		}else{
 			str = MessageSp2;
 		}
 		return str;
 	}
+
 	public static String getMessageMsgHelp1() {
 		String str =  MessageMsgHelp1;
 		if(str == null){
 			str = "§c faite /msg <player> <message> pour envoyer un message privé";
 			
-		}else
-		{
+		}else{
 			str = MessageMsgHelp1;
 		}
 		return str;
 	}
+
 	public static String getMessageMsgHelp2() {
 		String str =  MessageMsgHelp2;
 		if(str == null){
 			str = "§c les messages sont clickable afin de pé§remplir la commande";
 			
-		}else
-		{
+		}else{
 			str = MessageMsgHelp2;
 		}
 		return str;
 	}
+
 	public static String getTargetDisconnecte() {
 		String str =  TargetDisconnecte;
 		if(str == null){
 			str = "§c Ce joueur est déconnecté";
 			
-		}else
-		{
+		}else{
 			str = TargetDisconnecte;
 		}
 		return str;
 	} 
+
 	public static String getReply_Help() {
 		String str =  Reply_Help;
 		if(str == null){
 			str = "§c/r <Message> <-- répondre § quelqu'un";
 			
-		}else
-		{
+		}else{
 			str = Reply_Help;
 		}
 		return str;
 	}
+
 	public static String getAsk_Hover_Message() {
 		String str =  Ask_Hover_Message;
 		if(str == null){
 			str = "§7§o Cliquez pour r§pondre";
 			
-		}else
-		{
+		}else{
 			str = Ask_Hover_Message;
 		}
 		return str;
 	}
+
 	public static String getMsg_Hover_Message() {
 		String str =  Msg_Hover_Message;
 		if(str == null){
 			str = "§7§o Cliquez pour r§pondre § %player%";
 			
-		}else
-		{
+		}else{
 			str = Msg_Hover_Message;
 		}
-		return str;
-		
+		return str;	
 	}
 	
 
@@ -327,5 +320,7 @@ public class Utils {
 		return admin;
 	}
 
-	public static Team getJoueur() {return joueur;}
+	public static Team getJoueur() {
+		return joueur;
+	}
 }

@@ -29,9 +29,6 @@ public class HelpYou implements Listener {
                     p.closeInventory();
                     break;
 
-
-
-
             }
         }
     }
