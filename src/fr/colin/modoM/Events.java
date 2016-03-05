@@ -41,23 +41,6 @@ public class Events implements Listener {
             Utils.getModo().addPlayer(p);
 
         }
-
-        if (p.getName().equalsIgnoreCase("Skypeur") || p.getName().equalsIgnoreCase("MRAndrea") || p.getName().equalsIgnoreCase("_Dissolution")) {
-
-            Utils.getAdmin().addPlayer(p);
-
-        }
-        if (p.getName().equalsIgnoreCase("coco33920")) {
-
-            Utils.getDev().addPlayer(p);
-
-
-        }
-
-
-
-
-
     }
 
     @EventHandler
