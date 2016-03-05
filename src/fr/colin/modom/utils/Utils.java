@@ -1,6 +1,7 @@
-package fr.colin.modoM.utils;
+package fr.colin.modom.utils;
 
-import fr.colin.modoM.ModoMessage;
+import fr.colin.modom.ModoMessage;
+
 import org.bukkit.Bukkit;
 import org.bukkit.scoreboard.Team;
 

@@ -1,6 +1,7 @@
-package fr.colin.modoM;
+package fr.colin.modom;
 
-import fr.colin.modoM.utils.Utils;
+import fr.colin.modom.utils.Utils;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;

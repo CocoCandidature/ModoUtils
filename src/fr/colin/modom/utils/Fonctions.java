@@ -1,4 +1,4 @@
-package fr.colin.modoM.utils;
+package fr.colin.modom.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import fr.colin.modoM.ModoMessage;
+import fr.colin.modom.ModoMessage;
 
 public class Fonctions {
 
